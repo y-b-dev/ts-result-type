@@ -1,0 +1,33 @@
+{
+  "name": "ts-result-type",
+  "description": "Result type - inspired by Rust's Result type - union type, generic over Ok and Err - Result<Ok, Err>",
+  "version": "0.0.1",
+  "author": "Yom-Tov Beniaminov",
+  "license": "MIT",
+  "keywords": [
+    "result, typescript, javascript, ts, js, rust"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "release": "pnpm run build && changeset publish",
+    "test": "jest",
+    "test-silent": "jest --collectCoverage=false --reporters jest-silent-reporter"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "@types/jest": "^29.5.4",
+    "jest": "^29.6.4",
+    "jest-silent-reporter": "^0.5.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+    "package.json"
+  ]
+}
