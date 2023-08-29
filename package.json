@@ -1,7 +1,7 @@
 {
   "name": "ts-result-type",
   "description": "Result type - inspired by Rust's Result type - union type, generic over Ok and Err - Result<Ok, Err>",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Yom-Tov Beniaminov",
   "license": "MIT",
   "keywords": [
